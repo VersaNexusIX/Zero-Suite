@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zero-suite"
+version = "1.0.0"
+description = "Epistemic Defensive Web Surface Auditor powered by ZSES and read-only EmbeddingGemma 2"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.11"
+authors = [{name = "David Daryanto (VersaNexusIX)"}]
+dependencies = [
+    "requests>=2.32.0",
+    "beautifulsoup4>=4.12.0",
+    "rich>=13.9.0",
+]
+
+[project.optional-dependencies]
+eg2 = [
+    "sentence-transformers>=3.3.0",
+    "transformers>=4.48.0",
+    "torch>=2.4.0",
+]
+
+[project.scripts]
+zero-suite = "zero_suite.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/VersaNexusIX/Zero-Suite"
+Repository = "https://github.com/VersaNexusIX/Zero-Suite"
