@@ -148,7 +148,6 @@ python3 Zero-Suite.py https://authorized-target.example \
 
 - **EmbeddingGemma 2 (`google/embeddinggemma-2`)**: Developed by **Google DeepMind** and released under the **Apache License 2.0** ([Hugging Face Model Card](https://huggingface.co/google/embeddinggemma-2)). Built on the Gemma 4 architecture with a modular 270M-parameter text/code core and Matryoshka Representation Learning (MRL) truncation (`128`, `256`, `512`, `768` dimensions). Zero Suite does not redistribute model weights; users retrieve weights directly from official Hugging Face or Ollama registries subject to Google DeepMind's Apache 2.0 terms.
 - **Public Vulnerability Feeds**: Optional read-only advisory correlation queries the **CISA Known Exploited Vulnerabilities (KEV)** catalog and the **OSV.dev** open-source vulnerability database.
-- **Visual Identity**: Governed by the canonical **VersaNexusIX Design System** (`DESIGN.md`) authored by David Daryanto ([daviddaryanto.my.id](https://daviddaryanto.my.id)).
 
 ---
 
